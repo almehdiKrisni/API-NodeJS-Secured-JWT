@@ -14,21 +14,21 @@ jobs:
       - run:
           command: npm run test
           name: Run tests
-      # - run:
-      #     command: npm run build
-      #     name: Build app
-      # - persist_to_workspace:
-      #     root: ~/project
-      #     paths:
-      #       - .
+      - run:
+          command: npm run build
+          name: Build app
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - .
 
-  # deploy:
-  #   executor: heroku/default
-  #   steps:
-  #     - attach_workspace:
-  #         at: ~/project
-  #     - heroku/deploy-via-git:
-  #         force: true # force push when pushing to the heroku remote, see: https://devcenter.heroku.com/articles/git
+  deploy:
+    executor: heroku/default
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - heroku/deploy-via-git:
+          force: true # force push when pushing to the heroku remote, see: https://devcenter.heroku.com/articles/git
 
   workflow:
     build_test_deploy:
