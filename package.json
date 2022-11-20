@@ -1,0 +1,25 @@
+{
+  "name": "api-nodejs-secured-jwt",
+  "version": "1.0.0",
+  "description": "API with NodeJS and secured by ExpressJS creation.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DJWT\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[2\u001b[C\u001b[creation with ExpressJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT.git"
+  },
+  "keywords": [
+    "API",
+    "NodeJS",
+    "JWT",
+    "ExpressJS"
+  ],
+  "author": "Almehdi Krisni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT/issues"
+  },
+  "homepage": "https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT#readme"
+}
