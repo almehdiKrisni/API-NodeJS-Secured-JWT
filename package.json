@@ -4,8 +4,9 @@
   "description": "API with NodeJS and secured by ExpressJS creation.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DJWT\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[2\u001b[C\u001b[creation with ExpressJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "testmocha": "mocha lib/**/**.spec.js"
+    "start": "node hello-world.js",
+    "dev": "nodemon hello-world.js",
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.7",
+    "http-errors": "^2.0.0",
     "jest": "^29.3.1",
     "mocha": "^10.1.0",
     "supertest": "^6.3.1"
