@@ -4,7 +4,8 @@
   "description": "API with NodeJS and secured by ExpressJS creation.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DJWT\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[2\u001b[C\u001b[creation with ExpressJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testmocha": "mocha lib/**/**.spec.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "homepage": "https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
   }
 }
