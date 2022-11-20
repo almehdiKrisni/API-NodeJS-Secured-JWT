@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT/issues"
   },
-  "homepage": "https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT#readme"
+  "homepage": "https://github.com/almehdiKrisni/API-NodeJS-Secured-JWT#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
