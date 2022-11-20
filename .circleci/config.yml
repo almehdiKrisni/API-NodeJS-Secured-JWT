@@ -1,5 +1,4 @@
 version: 2.1
-
 orbs:
   node: circleci/node@5.0.2
   heroku: circleci/heroku@1.2.6
@@ -30,8 +29,8 @@ jobs:
       - heroku/deploy-via-git:
           force: true # force push when pushing to the heroku remote, see: https://devcenter.heroku.com/articles/git
 
-workflow:
-  build_test_deploy:
+workflows:
+  test_my_app:
     jobs:
       - build_and_test
       - deploy:
